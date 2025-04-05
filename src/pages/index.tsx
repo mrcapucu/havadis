@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Head>
         <title>Havadis</title>
-        <meta name="description" content="Twitter Clone Home Page." />
+        <meta name="description" content="Havadis Home Page." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/twitter_icon.ico" />
       </Head>

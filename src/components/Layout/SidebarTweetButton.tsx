@@ -64,7 +64,7 @@ const SidebarTweetButton = () => {
                 lg:block
             "
         >
-          Tweet
+          Post
         </p>
       </div>
     </div>

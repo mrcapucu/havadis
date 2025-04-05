@@ -42,7 +42,6 @@ const Form: React.FC<FormProps> = ({
                 text-2xl
                 font-bold
                 text-white
-                bg-indigo-500
             "
           >
             {title || "Welcome to Havadis!"}

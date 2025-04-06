@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import { TbMessageCircleFilled } from "react-icons/tb";
+import { BsTwitter } from "react-icons/bs";
 import React from "react";
 
 const SidebarLogo = () => {
@@ -20,7 +20,7 @@ const SidebarLogo = () => {
             hover:bg-opacity-10
         "
     >
-      <TbMessageCircleFilled size={28} color="white" />
+      <BsTwitter size={28} color="white" />
     </div>
   );
 };

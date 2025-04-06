@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import { BsTwitter } from "react-icons/bs";
+import { FaFeather } from "react-icons/fa";
 import React from "react";
 
 const SidebarLogo = () => {
@@ -20,7 +21,7 @@ const SidebarLogo = () => {
             hover:bg-opacity-10
         "
     >
-      <BsTwitter size={28} color="white" />
+      <FaFeather size={28} color="white" />
     </div>
   );
 };

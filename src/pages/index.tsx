@@ -11,7 +11,7 @@ export default function Home() {
         <title>Havadis</title>
         <meta name="description" content="Havadis Home Page." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/twitter_icon.ico" />
+        <link rel="icon" href="/havadis_favicon.png" />
       </Head>
       <main>
         <Header label="Home" />

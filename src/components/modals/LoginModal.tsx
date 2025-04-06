@@ -59,7 +59,7 @@ const LoginModal = () => {
   const footerContent = (
     <div className="mt-4 text-center text-neutral-400">
       <p>
-        First Time Using Twitter?
+        First Time Using Havadis?
         <span
           onClick={onToggle}
           className="cursor-pointer text-white hover:underline"

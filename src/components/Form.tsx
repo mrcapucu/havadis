@@ -44,7 +44,7 @@ const Form: React.FC<FormProps> = ({
                 text-white
             "
           >
-            {title || "Welcome to Twitter!"}
+            {title || "Welcome to Havadis!"}
           </h1>
           <div className="flex flex-row items-center justify-center gap-4">
             <Button label="Log In" onClick={loginModal.onOpen} />

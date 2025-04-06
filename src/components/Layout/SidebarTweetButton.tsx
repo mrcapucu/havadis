@@ -32,7 +32,7 @@ const SidebarTweetButton = () => {
             items-center
             justify-center
             rounded-full
-            bg-sky-500
+            bg-indigo-500
             p-4
             transition
             hover:bg-opacity-80
@@ -46,7 +46,7 @@ const SidebarTweetButton = () => {
             mt-6 mr-8 hidden
             h-14 cursor-pointer
             rounded-full
-            bg-sky-500
+            bg-indigo-500
             px-4
             py-3
             transition
@@ -64,7 +64,7 @@ const SidebarTweetButton = () => {
                 lg:block
             "
         >
-          Tweet
+          Post
         </p>
       </div>
     </div>

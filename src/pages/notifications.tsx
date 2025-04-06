@@ -29,7 +29,7 @@ const Notifications = () => {
   return (
     <>
       <Head>
-        <title>Notifications - Twitter</title>
+        <title>Notifications - Havadis</title>
         <meta name="description" content="Twitter Notifications Page." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/twitter_icon.ico" />

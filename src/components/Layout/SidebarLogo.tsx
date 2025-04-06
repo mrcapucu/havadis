@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
-import { BsTwitter } from "react-icons/bs";
 import React from "react";
+import Image from "next/image";
 
 const SidebarLogo = () => {
   const router = useRouter();
@@ -9,18 +9,23 @@ const SidebarLogo = () => {
     <div
       onClick={() => router.push("/")}
       className="
-            flex
-            h-14 w-14
-            cursor-pointer items-center
-            justify-center
-            rounded-full
-            p-4
-            transition
-            hover:bg-blue-300
-            hover:bg-opacity-10
-        "
+        flex
+        h-14 w-14
+        cursor-pointer items-center
+        justify-center
+        rounded-full
+        p-4
+        transition
+        hover:bg-indigo-300
+        hover:bg-opacity-10
+      "
     >
-      <BsTwitter size={28} color="white" />
+      <Image
+        src="/havadis_logo.png"
+        alt="Havadis Logo"
+        width={32}
+        height={32}
+      />
     </div>
   );
 };
